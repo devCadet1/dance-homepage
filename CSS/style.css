@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Outline&family=Merriweather:wght@300;400;700&family=Overpass&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(../Asset/main.jpg);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 700px;
+    background-position-y: top;
+    background-color: #dad5d588;
+}
+
+nav{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 50px;
+    gap: 300px;
+}
+
+
+
+
+.nav-items{
+    display: flex;
+    gap: 100px;
+    margin-left: 700px;
+    
+
+}
+
+.list-items{
+    list-style-type: none;
+    color: #555555;
+    
+}
+
+.main{
+    text-align: right;
+    right: 550px;
+    position: absolute;
+}
+
+.line1{
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    color:#f5f3f3f1;
+    font-size: 150px;
+    font-family: "Merriweather";
+    margin-right: 200px;   
+
+}
+
+
+.line2{
+    font-family: "Merriweather";
+    font-size: 150px;
+    color: #1f1f1fde;
+    margin-top: -50px;
+    margin-right: 25px;
+}
+
+.right-side{
+    display: flex;
+    gap: 100px;
+    position: absolute;
+    right: 200px;
+    
+
+
+}
+
+
+.text{
+    
+    
+    font-size: 30px;
+    font-weight: 100;
+    color: #1f1f1fcb;
+    margin-top: 220px;
+    
+    width: 200px;
+    font-family: "Merriweather";
+
+}
+
+.icons{
+    list-style-type: none;
+    line-height: 80px;
+    
+    
+}
+
+.package{
+    position: absolute;
+    top: 450px;
+    display: block;
+    right: 200px;
+    font-size: 25px;
+    padding: 20px 50px;
+    background-color: #1f1f1f;
+    color: #fff;
+    cursor: pointer;
+    
+
+}
+
+#chart{
+    background: grey;
+    stroke: #555555;
+    stroke-width: 1;
+    height: 380px;
+}
+
+.features{
+    list-style-type: disc;
+    font-size: 25px;
+    line-height: 125px;
+    margin-left: -4px;
+    margin-top: -60px;
+    
+    
+}
+
+.features a{
+    
+    text-decoration: none;
+    color: grey
+    
+}
+
+.bottom{
+    display: flex;
+    position: absolute;
+    margin-left: 740px;
+    margin-top: 510px;    
+    gap: 50px;
+    
+}
+
+.features-list :{
+    color: #1f1f1f;
+
+}
+
+.one{
+    display: flex;
+    margin-top: -20px;
+}
+
+.two{
+    width: 500px;
+    margin-top: -100px;
+}
+
+.two h1{
+    font-size: 100px;
+    font-family: 'overpass';
+
+}
+
+.two h3{
+    font-family: 'merriweather';
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+
+.list-items:hover, .item:hover {
+    cursor: pointer;
+    color: #1f1f1f;
+    font-weight: 500;
+}
+
+.list-items:hover{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.arrow{
+    display: block;
+    position: absolute;
+    right: 150px;
+    bottom: 50px;
+    
+}
+
+
